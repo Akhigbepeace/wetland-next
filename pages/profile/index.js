@@ -1,8 +1,9 @@
 import { Box } from "@chakra-ui/react";
 import Head from "next/head";
-import Navbar from "../components/navbar/index";
+import React from "react";
+import Navbar from "../../components/navbar";
 
-export default function Home() {
+const Profile = () => {
   return (
     <Box>
       <Head>
@@ -20,4 +21,6 @@ export default function Home() {
       </Box>
     </Box>
   );
-}
+};
+
+export default Profile;
