@@ -59,6 +59,7 @@ const Hamburger = () => {
               {navLinks.map((navLink, index) => {
                 return (
                   <Box
+                    key={index}
                     mb="30px"
                     fontFamily="Mulish"
                     fontSize="24px"
